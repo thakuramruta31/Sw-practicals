@@ -1,0 +1,13 @@
+Job: Python Automated Tests
+Command: python -m pytest test_app.py -v
+
+Test: test_app.py::test_calculate_total
+Status: FAILED
+
+Expected result: 600
+Actual result: -600
+
+AssertionError: assert -600 == 600
+
+Test summary: 1 failed in 1.52s
+Build status: FAILED
